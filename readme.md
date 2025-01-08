@@ -1,74 +1,81 @@
 # Networking Experiments
 
-This repository documents a series of hands-on networking experiments designed to enhance understanding of network tools, devices, and configurations. Each experiment is detailed below with its objectives, procedure, and outcomes.
+This repository documents a series of networking experiments conducted using **Cisco Packet Tracer**. The experiments focus on understanding network tools, devices, topologies, and configurations, including VLAN setup.
+
+---
 
 ## Experiments Overview
 
 ### **Experiment 1: Study of Network Tools**
 - **Objective**: 
-  - Understand and explore commonly used network tools.
+  - Explore and utilize commonly used network tools for troubleshooting and management.
 - **Description**: 
-  - Conducted a study of various network tools to monitor, troubleshoot, and manage networks. Tools studied include:
+  - Conducted a study of network tools available in **Cisco Packet Tracer**, including:
     - **Ping**: For testing connectivity between devices.
-  - Post-study, a **peer-to-peer connection** was established using a network switch to apply these tools.
+    - **Traceroute**: For identifying the path packets take through the network.
+    - **Simulation Mode**: For visualizing and analyzing packet flow between devices.
+  - A **peer-to-peer connection** was set up using a switch to demonstrate the use of these tools in real-time scenarios.
 
 ---
 
 ### **Experiment 2: Study of Network Devices**
 - **Objective**: 
-  - Gain practical knowledge of different network devices and their roles.
+  - Understand the functionality and roles of different network devices.
 - **Description**: 
-  - Studied the functionality of:
+  - Explored the configuration and operation of devices such as:
     - **Switches**
     - **Routers**
-    - **Hubs**
-    - **Network Interface Cards (NICs)**
-  - Configured a simple **peer-to-peer connection**.
-  - Connected **4 PCs and 1 laptop** to a single switch, enabling communication between devices.
+    - **PCs and Laptops**
+  - Configured a simple **peer-to-peer connection** using Cisco Packet Tracer.
+  - Connected **4 PCs and 1 laptop** to a switch to establish communication and validate connectivity.
 
 ---
 
 ### **Experiment 4: Network Topologies**
 - **Objective**: 
-  - Understand different network topologies and their implementation.
+  - Study and implement various network topologies.
 - **Description**: 
-  - Explored and implemented the following topologies:
+  - Simulated and analyzed the following topologies in **Cisco Packet Tracer**:
     - **Bus Topology**
     - **Star Topology**
     - **Ring Topology**
     - **Mesh Topology**
-    - **Hybrid Topology**
-  - Observed how data flows in each topology and the advantages/disadvantages of each.
+  - Observed data flow in each topology and noted their advantages and limitations.
 
 ---
 
 ### **Experiment 5: Creating VLANs**
 - **Objective**: 
-  - Learn about VLANs (Virtual Local Area Networks) and how to configure them on network switches.
+  - Learn and implement VLANs (Virtual Local Area Networks) using Cisco Packet Tracer.
 - **Description**: 
-  - Created two VLANs:
+  - Configured two VLANs on two managed switches:
     - **VLAN 10**: Named `HR`
     - **VLAN 20**: Named `Accounts`
-  - Configured VLANs using the console of two managed switches.  
-  - Ensured devices within the same VLAN could communicate, while devices in different VLANs were isolated unless explicitly allowed.
+  - Used the **console** to configure VLANs and assign devices to the respective VLANs.
+  - Verified that devices within the same VLAN could communicate, while devices in different VLANs were isolated unless explicitly configured for inter-VLAN communication.
 
 ---
 
 ## Tools and Technologies Used
-- **Network Tools**: Ping, Traceroute, Wireshark, Netstat
+- **Platform**: Cisco Packet Tracer
+- **Network Tools in Packet Tracer**: Ping, Traceroute, Simulation Mode
 - **Devices**: Switches, PCs, Laptops
-- **Protocols**: Ethernet
-- **Software**: Console for switch configuration
+- **Protocols**: Ethernet, VLANs
 
 ---
 
 ## Key Learnings
-1. Gained proficiency in using network tools for troubleshooting and monitoring.
-2. Developed an understanding of the functionality and configuration of network devices.
-3. Learned the practical implementation of various network topologies and their real-world applications.
-4. Acquired skills in configuring VLANs and managing inter-VLAN communication.
+1. Developed familiarity with Cisco Packet Tracer and its simulation capabilities.
+2. Learned to use built-in tools like Ping, Traceroute, and Simulation Mode for troubleshooting.
+3. Gained practical knowledge of configuring network topologies and devices virtually.
+4. Acquired skills in VLAN configuration and observed the behavior of isolated networks.
 
 ---
 
 ## Conclusion
-These experiments provided hands-on experience with networking concepts, tools, and devices, laying a strong foundation for further exploration into advanced network setups and configurations.
+These experiments provided a comprehensive understanding of networking concepts through simulations in Cisco Packet Tracer. The hands-on approach solidified theoretical knowledge and prepared for real-world applications in networking.
+
+---
+
+### **Acknowledgment**
+Special thanks to Cisco for providing a robust simulation tool that made it possible to perform these experiments virtually.
