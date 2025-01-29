@@ -40,6 +40,7 @@ This repository documents a series of networking experiments conducted using **C
     - **Star Topology**
     - **Ring Topology**
     - **Mesh Topology**
+    - **Hybrid Topology**
   - Observed data flow in each topology and noted their advantages and limitations.
 
 ---
@@ -53,6 +54,16 @@ This repository documents a series of networking experiments conducted using **C
     - **VLAN 20**: Named `Accounts`
   - Used the **console** to configure VLANs and assign devices to the respective VLANs.
   - Verified that devices within the same VLAN could communicate, while devices in different VLANs were isolated unless explicitly configured for inter-VLAN communication.
+
+### **Experiment 6: Creating inter VLANs**
+- **Objective**: 
+  - Learn and implement inter VLANs (Virtual Local Area Networks) using Cisco Packet Tracer.
+- **Description**: 
+  - Configured two VLANs on two managed switches:
+    - **VLAN 10**
+    - **VLAN 20**
+  - Used the **console** to configure VLANs and assign devices to the respective VLANs.
+  - Verified that devices within the same VLAN could communicate, and different VLANs can communicate using ping commad in terminal.
 
 ---
 
@@ -79,3 +90,4 @@ These experiments provided a comprehensive understanding of networking concepts 
 
 ### **Acknowledgment**
 Special thanks to Cisco for providing a robust simulation tool that made it possible to perform these experiments virtually.
+Chatgpt for fomatting the readme file. 
