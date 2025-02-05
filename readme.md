@@ -65,6 +65,14 @@ This repository documents a series of networking experiments conducted using **C
   - Used the **console** to configure VLANs and assign devices to the respective VLANs.
   - Verified that devices within the same VLAN could communicate, and different VLANs can communicate using ping commad in terminal.
 
+  ### **Experiment 7: Creating spannning tree**
+- **Objective**: 
+  - Learn and implement Spanning tree using Cisco Packet Tracer.
+- **Description**: 
+  - Configured three switches:
+    - Identify root brige and root port.
+  - Check the pkt file to know how to identify it.
+
 ---
 
 ## Tools and Technologies Used
