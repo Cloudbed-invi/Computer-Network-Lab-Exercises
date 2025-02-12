@@ -73,6 +73,13 @@ This repository documents a series of networking experiments conducted using **C
     - Identify root brige and root port.
   - Check the pkt file to know how to identify it.
 
+    ### **Experiment 7: Configuration and Connecting Wifi using PC and Laptop**
+- **Objective**: 
+  - Configure and connect different enddevices to wifi service.
+- **Description**: 
+  - Configure wifi, and physical wifi component.
+    - And configure wifi device password.
+
 ---
 
 ## Tools and Technologies Used
