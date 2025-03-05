@@ -73,12 +73,20 @@ This repository documents a series of networking experiments conducted using **C
     - Identify root brige and root port.
   - Check the pkt file to know how to identify it.
 
-    ### **Experiment 7: Configuration and Connecting Wifi using PC and Laptop**
+    ### **Experiment 8: Configuration and Connecting Wifi using PC and Laptop**
 - **Objective**: 
   - Configure and connect different enddevices to wifi service.
 - **Description**: 
   - Configure wifi, and physical wifi component.
     - And configure wifi device password.
+
+
+    ### **Experiment 9: Configuration of DHCP (dynamic ip allocation) for all devices**
+- **Objective**: 
+  - Configure and connect different enddevices to a router using dynamic ip address.
+- **Description**: 
+  - Configure router to support dhcp.
+  - Allocate DHCP to end devices.
 
 ---
 
